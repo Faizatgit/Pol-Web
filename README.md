@@ -1,3 +1,7 @@
+This a politician website of Indian National Congress leader Rahul Gandhi.
+
+note:- Please use commoan "npm run dev" in root dierectory in order to add node modules in your project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
