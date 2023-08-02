@@ -1,0 +1,83 @@
+/* Add styling for the website elements */
+
+/* Reset default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 0px;
+  background-color: magenta;
+  color: #333;
+  background-image: url('./images/hero.jpg');
+  background-repeat: no-repeat;
+  opacity: 5.0;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  background-color: rgb(40, 83, 32);
+  color: white;
+  font-size: 1.5rem;
+  position: fixed;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+section {
+  padding: 50px;
+}
+
+#hero {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#hero h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline;
+}
+
+a[href="#contact"]{
+  font-size: 24px;
+}
+
+#gallery{
+  background-image: url('./images/face.jpg') , url('./images/hero.jpg') , url('./images/logo.jpg') , url('./images/youth.jpg');
+  background-repeat: no-repeat , no-repeat , no-repeat , no-repeat;
+  background-size: 240px;
+  background-position: 240px 0px , 480px 0px , 720px 0px , 960px 0px ;
+  margin-top: 50px;
+}
